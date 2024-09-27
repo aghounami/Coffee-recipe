@@ -19,6 +19,7 @@ body{
     display: flex;
     position: relative;
     max-width: 1200px;
+    /* max-height: 1000px; */
     /* overflow: scroll; */
 }
 
@@ -152,7 +153,10 @@ input[type="checkbox"], label{
         z-index: 1;
         left: 0;
         top: 0;
-        padding: 5px;
+        padding: 10px;
+    }
+    .title{
+        font-size: 20px;
     }
 }
 
